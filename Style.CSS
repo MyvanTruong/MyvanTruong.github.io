@@ -1,0 +1,49 @@
+/* ============ Reset standard CSS ============ */
+@import "https://meyerweb.com/eric/tools/css/reset/reset.css";
+
+    body {
+        background-image: url("Green.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        }
+
+    p {
+        font-size: 30px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    img[src*='WOOLY_Logo'] {
+        height: 50px;
+    }
+
+    img[src*='WOOLY_Cloud'] {
+        height: 300px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    
+    div {
+        display: flex;
+        justify-content: center;
+    }
+    
+      .My-Collection {
+        background-color: white;
+        color: black;
+        padding: 15px 35px;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        border-radius: 10px;
+      }
+
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:active { text-decoration: none; }
